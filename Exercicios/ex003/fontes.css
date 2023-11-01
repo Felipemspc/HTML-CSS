@@ -1,0 +1,21 @@
+@charset "UFT-8";
+
+main{
+    background-color: white;
+    width: 600px;
+    padding-right: 1em;
+    padding-left: 1em;
+    padding-bottom: 1em;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.663);
+}
+body{
+    background-image: linear-gradient(to left ,white, black );
+}
+p{
+    text-align: justify;
+}
+h1{
+    text-align: center;
+}

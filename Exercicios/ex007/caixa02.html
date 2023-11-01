@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping tags </title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0;
+    }
+    h1{
+        text-align: center;
+    }
+    header {
+        
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        margin: 10px;
+    }
+    nav{
+        text-align: center;
+        background-color: rgb(64, 62, 62);
+        padding: 3px;
+        box-shadow: 5px 5px 5px rgba(113, 100, 100, 0.772);
+    }
+    nav > a{
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        margin-right: 30px;
+
+    }
+    nav > a:hover{
+        text-decoration: underline;
+        color: rgb(215, 215, 247);
+    }
+    main{
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 10px 0px;
+        box-shadow: 4px 9px 0px black;
+        
+    }
+    article{
+        background-color: lightgray;
+    }
+    article > aside{
+        background-color: rgb(240, 228, 228) ;
+    }
+    footer{
+        background-color: black;
+        color: white;
+        text-align: center;
+        padding: 4px;
+        margin: 0px;
+
+    }
+    footer > p {
+        margin: 0px;
+    }
+  
+</style>
+
+<body>
+
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+
+        </section>
+
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita placeat alias qui amet, maiores
+                    tempore praesentium sunt pariatur quo asperiores provident voluptas eos eius voluptatibus recusandae
+                    necessitatibus omnis veritatis. Veritatis.</p>
+                <aside>
+                    <p>Artigo escrito por José Da Silva</p>
+                </aside>
+            </article>
+
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por FelipeMattos</p>
+
+    </footer>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,21 @@
+@charset "UFT-8";
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    color: red;
+}
+div:hover{
+    color: gray;
+}
+div > p{
+    display: none; 
+}
+div:hover > p{
+    display: block;
+    color: red;
+    background-color:black;
+    width: fit-content;
+}
+    
